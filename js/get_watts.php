@@ -3,7 +3,7 @@ if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) &&  $_SERVER['HTTP_X_REQUESTED_WITH
 
 $type = $_POST['type'];
 
-mysql_connect("localhost", "konan", "uhf8bwfgf") or die ();
+mysql_connect("localhost", "login", "password") or die ();
 mysql_select_db("watts") or die(mysql_error());
 
 

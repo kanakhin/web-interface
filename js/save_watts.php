@@ -1,6 +1,6 @@
 <?php
 
-mysql_connect("localhost", "konan", "uhf8bwfgf") or die (mysql_error ());
+mysql_connect("localhost", "login", "password") or die (mysql_error ());
 mysql_select_db("watts") or die(mysql_error());
 
 exec("sudo i2cget -y 7 0x37", $output);
