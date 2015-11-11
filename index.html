@@ -1,0 +1,49 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Центр управления</title>
+	<script type="text/javascript" src="/js/jquery.js"></script>
+	<script type="text/javascript" src="/js/main.js"></script>
+	<link href="/css/main.css" rel="stylesheet" type="text/css" />
+	<script>
+		$().ready(function(){
+			init();
+		});
+	</script>
+  </head>
+  <body>
+	<input type="hidden" id="action" value="" />
+	<div align="center" id="wrap">
+		<div id="main">
+			<div id="watts" align="right"></div>
+			<div id="watts_avg" align="right"></div>
+			<div id="watts_month" align="right"></div>
+		
+			<a class="group" id="all_on" onclick="group_management('on');">ВКЛ ВСЕ</a>
+			<a class="group" id="all_off" onclick="group_management('off');">ВЫКЛ ВСЕ</a>
+		
+			<a class="lamp living_room" id="lamp0x4d3" rel='0x4d' onclick="lamp_click('0x4d',this.id, 3);" ></a>
+			<a class="lamp kitchen" id="lamp0x4d4" rel='0x4d' onclick="lamp_click('0x4d',this.id, 4);" ></a>
+			<a class="lamp children_main" id="lamp0x4d5" rel='0x4d' onclick="lamp_click('0x4d',this.id, 5);" ></a>
+			<a class="lamp children_second" id="lamp0x4d6" rel='0x4d' onclick="lamp_click('0x4d',this.id, 6);" ></a>
+			<a class="lamp sleeproom_main" id="lamp0x423" rel='0x42' onclick="lamp_click('0x42',this.id, 3);" ></a>
+			<a class="lamp sleeproom_lyuda" id="lamp0x424" rel='0x42' onclick="lamp_click('0x42',this.id, 4);" ></a>
+			<a class="lamp sleeproom_anton" id="lamp0x425" rel='0x42' onclick="lamp_click('0x42',this.id, 5);" ></a>
+			
+			<a class="button button_living_room" id="button0x4d15" onclick="button_click('0x4d',this.id, 15);" ></a>
+			<a class="button button_kitchen" id="button0x4d14" onclick="button_click('0x4d',this.id, 14);" ></a>
+			<a class="button button_children_main" id="button0x4d16" onclick="button_click('0x4d',this.id, 16);" ></a>
+			<a class="button button_children_second" id="button0x4d17" onclick="button_click('0x4d',this.id, 17);" ></a>
+			<a class="button button_sleeproom_door1" id="button0x4212" onclick="button_click('0x42',this.id, 12);" ></a>
+			<a class="button button_sleeproom_door2" id="button0x4213" onclick="button_click('0x42',this.id, 13);" ></a>
+			<a class="button button_sleeproom_lyuda1" id="button0x4214" onclick="button_click('0x42',this.id, 14);" ></a>
+			<a class="button button_sleeproom_lyuda2" id="button0x4215" onclick="button_click('0x42',this.id, 15);" ></a>
+			<a class="button button_sleeproom_anton1" id="button0x4216" onclick="button_click('0x42',this.id, 16);" ></a>
+			<a class="button button_sleeproom_anton2" id="button0x4217" onclick="button_click('0x42',this.id, 17);" ></a>
+		</div>
+	</div>
+	<div id="scripts">
+	</div>
+  </body>
+</html>
+

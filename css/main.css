@@ -1,0 +1,178 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: url(/img/bg.jpg);
+}
+
+#wrap {
+	width: 100%;
+}
+	#main {
+		margin-top: 20px;
+		position: relative;
+		background: url(/img/background.png) top center no-repeat;
+		width: 1200px;
+		height: 700px;
+	}
+		.lamp {
+			display: block;
+			position: absolute;
+			background: url(/img/lamp.png) 2px -10px no-repeat;
+			width: 100px;
+			height: 100px;
+			cursor: pointer;
+		}
+			.lamp_active {
+				background: url(/img/lamp.png) 2px -102px no-repeat;
+			}
+		
+			.living_room {
+				left: 476px;
+				top: 564px;
+			}
+			
+			.kitchen {
+				left: 740px;
+				top: 480px;
+			}
+			
+			.children_main {
+				left: 150px;
+				top: 364px;
+			}
+			
+			.children_second {
+				left: 150px;
+				top: 30px;
+			}
+			
+			.sleeproom_main{
+				left: 970px;
+				top: 360px;
+			}
+			
+			.sleeproom_lyuda {
+				left: 1060px;
+				top: 465px;
+			}
+			
+			.sleeproom_anton {
+				left: 1060px;
+				top: 260px;
+			}
+			
+		#watts {
+			display: block;
+			position: absolute;
+			width: 400px;
+			height: 25px;
+			font-family: Georgia;
+			font-size: 16px;
+			right: 0px;
+			top: 0px;
+		}
+		
+		#watts_avg{
+			display: block;
+			position: absolute;
+			width: 400px;
+			height: 25px;
+			font-family: Georgia;
+			font-size: 16px;
+			right: 0px;
+			top: 30px;
+		}
+		
+		.group {
+			display: block;
+			position: absolute;
+			width: 100px;
+			height: 30px;
+			font-family: Georgia;
+			font-size: 24px;
+			cursor: pointer;
+		}
+			#all_on{
+				right: 0px;
+				top: 100px;
+			}
+			#all_off{
+				right: 150px;
+				top: 100px;
+			}
+			
+		#watts_month {
+			display: block;
+			position: absolute;
+			width: 400px;
+			height: 25px;
+			font-family: Georgia;
+			font-size: 16px;
+			right: 0px;
+			top: 60px;
+		}
+		
+		.button {
+			display: block;
+			position: absolute;
+			background: url(/img/button_small.png) 2px 0px no-repeat;
+			width: 25px;
+			height: 25px;
+			cursor: pointer;
+		}
+			.button_disabled {
+				background: url(/img/button_small.png) 2px -26px no-repeat;
+			}
+			
+			.button_living_room {
+				left: 493px;
+				top: 305px;
+			}
+			
+			.button_children_main {
+				left: 345px;
+				top: 168px;
+			}
+			
+			.button_children_second{
+				left: 320px;
+				top: 168px;
+			}
+			
+			.button_kitchen {
+				left: 520px;
+				top: 305px;
+			}
+			
+			.button_sleeproom_door1 {
+				left: 903px;
+				top: 310px;
+			}
+			
+			.button_sleeproom_door2 {
+				left: 903px;
+				top: 285px;
+			}
+			
+			.button_sleeproom_lyuda1 {
+				left: 1152px;
+				top: 515px;
+			}
+			
+			.button_sleeproom_lyuda2 {
+				left: 1152px;
+				top: 490px;
+			}
+			
+			.button_sleeproom_anton1 {
+				left: 1152px;
+				top: 310px;
+			}
+			
+			.button_sleeproom_anton2 {
+				left: 1152px;
+				top: 285px;
+			}

@@ -1,0 +1,11 @@
+<Files .htpasswd>
+   deny from all
+</Files>
+
+Order allow,deny
+AuthType Basic
+AuthName "Enter password"
+AuthUserFile /var/www/html/.htpasswd
+Require valid-user
+Allow from 192.168.1.
+Satisfy Any
